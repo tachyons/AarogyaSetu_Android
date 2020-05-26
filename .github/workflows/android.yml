@@ -18,6 +18,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-    - run: |
+      run: |
        cp keystore.properties.sample keystore.properties
        ./gradlew build
